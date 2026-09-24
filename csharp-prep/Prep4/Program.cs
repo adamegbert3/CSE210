@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -42,17 +43,20 @@ class Program
 
 
 
+        // Finding the max
 
+        int maximum = numbers[0];
 
+        foreach (int number in numbers)
+        {
+            if (number > maximum)
+            {
+                maximum = number;
+            }
+        }
 
-
-
-
-
-
-
-
-
+        Console.Write("");
+        Console.Write($"The max is {maximum}");
 
 
 
