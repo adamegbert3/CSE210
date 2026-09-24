@@ -21,6 +21,9 @@ class Program
             }
         }
 
+
+        // Sum (add togehter)
+
         int sum = 0;
         foreach (int number in numbers)
         {
@@ -28,5 +31,36 @@ class Program
         }
 
         Console.Write($"The sum is {sum}");
+
+
+
+        // Averages of the numbers
+
+        float average = ((float)sum) / numbers.Count;
+        Console.WriteLine();
+        Console.WriteLine($"The average is {average}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
