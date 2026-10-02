@@ -18,8 +18,15 @@ class Program
         job2._startYear = 2026;
         job2._endYear = 1234;
 
-        job1.Display();
-        job2.Display();
+        Resume myResume = new Resume();
+
+        myResume._name = "Adam Egbert";
+
+        myResume._jobs.Add(job1);
+
+        myResume._jobs.Add(job2);
+
+        myResume.Display();
 
     }
 }
