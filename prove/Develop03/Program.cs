@@ -1,6 +1,6 @@
 using System;
 
-// I showed creativity by only choosing words that haven't been hidden yet.
+// I showed creativity by only choosing words to hide that haven't been hidden yet.
 
 
 class Program
